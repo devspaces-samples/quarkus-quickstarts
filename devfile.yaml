@@ -4,9 +4,7 @@ metadata:
 components:
   - name: tools
     container:
-      image: registry.access.redhat.com/ubi8/openjdk-11
-      command: ['tail']
-      args: ['-f', '/dev/null']      
+      image: registry.access.redhat.com/ubi8/openjdk-11 
       env:
         - name: QUARKUS_HTTP_HOST
           value: 0.0.0.0
