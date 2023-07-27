@@ -32,6 +32,7 @@ components:
 commands:
   - id: 1-package
     exec:
+      label: "1. Package the application"
       component: tools
       workingDir: ${PROJECTS_ROOT}/quarkus-quickstarts/getting-started
       commandLine: "mvn package"
@@ -40,7 +41,7 @@ commands:
         isDefault: true
   - id: 2-startdev
     exec:
-      label: "Start Development mode (Hot reload + debug)"
+      label: "2. Start Development mode (Hot reload + debug)"
       component: tools
       workingDir: ${PROJECTS_ROOT}/quarkus-quickstarts/getting-started
       commandLine: "mvn compile quarkus:dev"
