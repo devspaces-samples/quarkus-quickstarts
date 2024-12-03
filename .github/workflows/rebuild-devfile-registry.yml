@@ -12,8 +12,8 @@ name: Rebuild Devfile Registry
 on:
   push:
     branches:
-      - 'devspaces-[0-9].[0-9]+-rhel-8'
-      - devspaces-3-rhel-8
+      - 'devspaces-[0-9].[0-9]+-rhel-9'
+      - devspaces-3-rhel-9
 
 jobs:
   publish:
